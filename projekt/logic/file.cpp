@@ -8,7 +8,7 @@
 using namespace std;
 
 string writeName(string name) {
-    return "Hello:) " + name + "!";
+    return "Hello " + name + "!";
 }
 
 string ask() {

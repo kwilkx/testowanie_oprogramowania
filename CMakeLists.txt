@@ -13,6 +13,6 @@ if (APP_SETUP_GOOGLE_PROJECT)
 endif()
 
 if (APP_ENABLE_TESTING)
-	add_subdirectory( googletest )
+	#add_subdirectory( googletest )
 	add_subdirectory( test )
 endif()

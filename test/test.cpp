@@ -3,6 +3,7 @@
 #include "test.h"
 #include "logic/file.h"
 #include <vector>
+#include <gtest/gtest.h>
 
 using namespace std;
 
@@ -32,6 +33,12 @@ bool TestAnia() {
     text = "Ania";
     start();
     return (out == "Hello " + text + "!");
+}
+
+TEST(Test,TestAnia) {
+    text = "Ania";
+    start();
+    EXPECT_TRUE(out == "Hello " + text + "!");
 }
 
 bool TestEmpty() {
