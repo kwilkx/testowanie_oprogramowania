@@ -34,11 +34,6 @@ bool TestAnia() {
     return (out == "Hello " + text + "!");
 }
 
-TEST(sdfgsdfg){
-    text = "";
-        start();
-}
-
 bool TestEmpty() {
     text = "";
     start();
