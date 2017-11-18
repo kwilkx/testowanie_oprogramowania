@@ -32,7 +32,7 @@ void printedOnScreen(string s) {
 TEST(Test,TestAnia) {
     text = "Ania";
     start();
-    EXPECT_TRUE(out == "Hello " + text + "!");
+    EXPECT_EQ(out, "Hello " + text + "!");
 }
 
 TEST(Test,TestEmpty) {
